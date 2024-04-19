@@ -63,7 +63,7 @@ function SIP() {
 
   return (
     // <div className="bg-gray-200 py-6 mx-auto my-10 h-screen flex items-center justify-center">
-      <div className="max-w-4xl w-full px-8 py-4 bg-white shadow-inner rounded-lg">
+    <div className="max-w-4xl w-full px-8 py-4 bg-white border-2 border-black-500 rounded-lg">
         <div className="flex justify-between">
           <div className="w-1/2 pr-4">
             <h2 className="text-2xl font-semibold mb-4">Investment Calculator for SIP</h2>

@@ -22,7 +22,7 @@ function Home() {
     case 'comparison':
       return <Comparison />;
     default:
-      return <Default />;
+      return <Calculator/>;
   }
 }
 

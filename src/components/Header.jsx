@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,9 +11,9 @@ function Header() {
             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
             alt="Your Company"
           />
-          <h1 className="text-white text-lg font-semibold ml-2">
+          <Link to='/'><h1 className="text-white text-lg font-semibold ml-2">
             FundExplorer
-          </h1>
+          </h1></Link>
         </div>
       </nav>
 

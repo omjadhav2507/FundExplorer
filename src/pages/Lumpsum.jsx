@@ -67,7 +67,7 @@ function Lumpsum() {
   };
 
   return (
-    <div className="max-w-4xl w-full px-8 py-4 bg-white border-solid rounded-lg">
+    <div className="max-w-4xl w-full px-8 py-4 bg-white border-2 border-black-500 rounded-lg">
       <div className="flex justify-between">
         <div className="w-1/2 pr-4">
           <h2 className="text-2xl font-semibold mb-4">Investment Calculator for Lumpsum</h2>

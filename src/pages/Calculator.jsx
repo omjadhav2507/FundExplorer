@@ -14,7 +14,7 @@ function Calculator() {
   };
 
   return (
-    <div className="bg-gray-0 py-6 mx-auto my-5  flex flex-col items-center justify-center">
+    <div className="bg-gray-0 py-2 mx-auto my-5  flex flex-col items-center justify-center">
       <div className="flex gap-6 mb-4">
         <button
           onClick={handleSipClick}
